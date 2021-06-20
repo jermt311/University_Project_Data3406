@@ -1,0 +1,1060 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="CDA.xsl"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ../../../CDA%20R2/cda-schemas-and-samples/infrastructure/cda/CDA.xsd" xmlns="urn:hl7-org:v3" xmlns:cda="urn:hl7-org:v3" xmlns:sdtc="urn:l7-org:sdtc" xmlns:fhir="http://hl7.org/fhir/v3">
+ <realmCode code="US"/>
+ <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+ <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+ <id extension="Health Export CDA" root="1.1.1.1.1.1.1.1.1"/>
+ <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" code="34109-9" displayName="Note"/>
+ <title>Health Data Export</title>
+ <effectiveTime value="20201029235937+0900"/>
+ <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+ <recordTarget>
+  <patientRole>
+   <id root="2.16.840.1.113883.4.6" nullFlavor="NA"/>
+   <patient>
+    <birthTime value=""/>
+   </patient>
+  </patientRole>
+ </recordTarget>
+ <component>
+  <section>
+   <templateId root="2.16.840.1.113883.10.20.22.2.4.1"/>
+   <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" code="8716-3" displayName="VITAL SIGNS"/>
+   <title>Vital Signs</title>
+   <text/>
+   <entry typeCode="DRIV">
+    <organizer classCode="CLUSTER" moodCode="EVN">
+     <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+     <id root="c6f88320-67ad-11db-bd13-0800200c9a66"/>
+     <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs"/>
+     <statusCode code="completed"/>
+     <effectiveTime>
+      <low value="20191106224018+0900"/>
+      <high value="20200418101552+0900"/>
+     </effectiveTime>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>19.2</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191106224018+0900"/>
+        <high value="20191106224018+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="19.2" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>19.2</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191106224353+0900"/>
+        <high value="20191106224353+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="19.2" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>19.1</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191110115351+0900"/>
+        <high value="20191110115351+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="19.1" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>24.7</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191110115420+0900"/>
+        <high value="20191110115420+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="24.7" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>19.1</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191110115546+0900"/>
+        <high value="20191110115546+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="19.1" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>19.4</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191111103445+0900"/>
+        <high value="20191111103445+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="19.4" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>19.4</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191111103534+0900"/>
+        <high value="20191111103534+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="19.4" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>19.1</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200213113306+0900"/>
+        <high value="20200213113306+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="19.1" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>19.2</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200219011603+0900"/>
+        <high value="20200219011603+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="19.2" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>19</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200221131509+0900"/>
+        <high value="20200221131509+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="19" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>19.4</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200223025136+0900"/>
+        <high value="20200223025136+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="19.4" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>19.1</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200224170649+0900"/>
+        <high value="20200224170649+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="19.1" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>19.3</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200302035053+0900"/>
+        <high value="20200302035053+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="19.3" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>18.9</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200307132849+0900"/>
+        <high value="20200307132849+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="18.9" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>18.9</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200312114225+0900"/>
+        <high value="20200312114225+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="18.9" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>18.9</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200313124809+0900"/>
+        <high value="20200313124809+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="18.9" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>18.7</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200313124951+0900"/>
+        <high value="20200313124951+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="18.7" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>18.7</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200325133020+0900"/>
+        <high value="20200325133020+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="18.7" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>18.7</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200325133313+0900"/>
+        <high value="20200325133313+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="18.7" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>18.7</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200327134839+0900"/>
+        <high value="20200327134839+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="18.7" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>18.5</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200331132115+0900"/>
+        <high value="20200331132115+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="18.5" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>18.4</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200331143049+0900"/>
+        <high value="20200331143049+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="18.4" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>18.4</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200409172556+0900"/>
+        <high value="20200409172556+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="18.4" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>18.2</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200418101552+0900"/>
+        <high value="20200418101552+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="18.2" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+    </organizer>
+   </entry>
+   <entry typeCode="DRIV">
+    <organizer classCode="CLUSTER" moodCode="EVN">
+     <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+     <id root="c6f88320-67ad-11db-bd13-0800200c9a66"/>
+     <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs"/>
+     <statusCode code="completed"/>
+     <effectiveTime>
+      <low value="20191106224018+0900"/>
+      <high value="20200418101552+0900"/>
+     </effectiveTime>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>47.3</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191106224018+0900"/>
+        <high value="20191106224018+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="47.3" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>47.3</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191106224353+0900"/>
+        <high value="20191106224353+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="47.3" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>47.1</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191110115351+0900"/>
+        <high value="20191110115351+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="47.1" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>61</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191110115420+0900"/>
+        <high value="20191110115420+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="61" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>47.2</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191110115546+0900"/>
+        <high value="20191110115546+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="47.2" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>47.7</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191111103445+0900"/>
+        <high value="20191111103445+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="47.7" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>970</sourceVersion>
+        <value>47.7</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20191111103534+0900"/>
+        <high value="20191111103534+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="47.7" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>47</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200213113306+0900"/>
+        <high value="20200213113306+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="47" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>47.3</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200219011603+0900"/>
+        <high value="20200219011603+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="47.3" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>46.8</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200221131509+0900"/>
+        <high value="20200221131509+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="46.8" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>47.8</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200223025136+0900"/>
+        <high value="20200223025136+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="47.8" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>47.1</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200224170649+0900"/>
+        <high value="20200224170649+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="47.1" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>47.5</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200302035053+0900"/>
+        <high value="20200302035053+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="47.5" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1003</sourceVersion>
+        <value>46.5</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200307132849+0900"/>
+        <high value="20200307132849+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="46.5" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>46.6</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200312114225+0900"/>
+        <high value="20200312114225+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="46.6" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>46.5</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200313124809+0900"/>
+        <high value="20200313124809+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="46.5" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>46.1</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200313124951+0900"/>
+        <high value="20200313124951+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="46.1" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>46</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200325133020+0900"/>
+        <high value="20200325133020+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="46" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>46</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200325133313+0900"/>
+        <high value="20200325133313+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="46" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>46</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200327134839+0900"/>
+        <high value="20200327134839+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="46" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>45.5</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200331132115+0900"/>
+        <high value="20200331132115+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="45.5" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>45.4</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200331143049+0900"/>
+        <high value="20200331143049+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="45.4" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>45.4</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200409172556+0900"/>
+        <high value="20200409172556+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="45.4" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>BodyMonitor</sourceName>
+        <sourceVersion>1014</sourceVersion>
+        <value>44.9</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20200418101552+0900"/>
+        <high value="20200418101552+0900"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="44.9" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+    </organizer>
+   </entry>
+  </section>
+ </component>
+</ClinicalDocument>

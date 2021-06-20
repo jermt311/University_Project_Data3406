@@ -1,0 +1,3 @@
+# (S)ARIMA README
+
+As we had many participants and four (4) Adherence filter methods per participant that had to be passed through the (S)ARIMA, we were unable to annotate every single SARIMA file in detail. Rather we just mentioned a brief findings from the observations. Instead, we created a (S)ARIMA Guide file to walk through the steps taken and explained them and the findings in detail. The file is called **SARIMA_Guide_JT_16112020.ipynb**
