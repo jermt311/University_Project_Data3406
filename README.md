@@ -1,27 +1,3 @@
-# Data3406 Assignment 2
-
-## Team Contract
-
-**Standard group meeting time:** Saturdays 3pm (unless otherwise arranged)
-
-**Contact Details:**
-- Facebook messenger between group
-- Uni emails (unikeys are given in the repository members)
-
-
-**Group Roles:**
-- *Team Leader*: William
-- *Tracker*: Serena
-- *Github Manager*: Benjamin
-- *Jupyter Notebook Manager*: Martin
-- *Writer*: Jeremy
-- *Editor*: Stanley
-- *Data Collection Overseer*: Jeremy
-- *Data Exploration*: Everyone
-- *Ethics Manager*: Serena, Jeremy
-
----
-
 ## Assignment Topic: Personal Informatics
 
 **Driving question:**
